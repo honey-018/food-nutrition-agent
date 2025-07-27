@@ -47,6 +47,7 @@ if submitted:
         1. Meal plan (Breakfast, Lunch, Snack, Dinner)
         2. Simple nutrition tips for caregiver
         3. Why these foods are helpful
+        give this output intabular format
         """
         try:
             response = model.generate_content(prompt)
